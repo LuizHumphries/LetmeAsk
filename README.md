@@ -54,4 +54,4 @@ $ yarn start
 ```
 ## License
 
-[MIT!](https://github.com/LuizHumphries/LetmeAsk/blob/main/LICENSE) <br />
+[MIT](https://github.com/LuizHumphries/LetmeAsk/blob/main/LICENSE) <br />
