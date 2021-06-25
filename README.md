@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<img src="/LuizHumphries/LetmeAsk/blob/main/Homepage.jpg" alt="Design preview for the Letmeask landing page for NWL Application" style="max-width:100%;">
+
 ## Available Scripts
 
 In the project directory, you can run:
