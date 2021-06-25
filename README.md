@@ -1,47 +1,57 @@
-# Getting Started with Create React App
+<div align="left"><center><h1>Letmeask</h1></center></div>
+<div align="left"><center><h3>A React Application created at Rocketseat's NWL</h3></center></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is my **frist project** for Web development, using React. 
+As an **engineer** that uses **Python** for Data Analyst and process optimization, this project is my first step in the Front-end world.
 
-In the project directory, you can run:
 
-### `yarn start`
+<div align="left"><center><h3>Project Face</h3></center></div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://github.com/LuizHumphries/LetmeAsk/blob/9df09bc51c62dda998e86b2796e464f65debfe05/Homepage.jpg" alt="Design preview for the Letmeask landing page for NWL Application" style="max-width:100%;">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About
 
-### `yarn test`
+The Letmeask application was developed to help live streamers and their followers ask questions and vote for better questions while streaming. The most liked questions appear first on the streamer admin page, enabling the best questions to be perceived and answered. The development of this project occurs in the Next Level Week Together by Rocketseat.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Application Features
 
-### `yarn build`
+<p>✔️ Login authentication with Google Account;</p>
+<p>✔️ Admin Comands (lock/question answered, delete question)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Coming soon:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Responsivity</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Logo "LetmeAsk" moves the user to HomePage </p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Switch for Dark/Light Theme</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Delete Room Function for admin's</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Better room Ids.</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Modal for delete room function</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Programs/Stacks/Tools
 
-### `yarn eject`
+[React](https://pt-br.reactjs.org/) <br />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Firebase](https://firebase.google.com/)<br />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[TypeScript](https://www.typescriptlang.org/)<br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Node.js](https://nodejs.org/en/)<br />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Project Start
 
-## Learn More
+```
+$ git clone https://github.com/LuizHumphries/LetmeAsk.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Access
+$ cd letmeask-React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# LetmeAsk
+$ yarn
+
+# Run the project
+$ yarn start
+
+```
+## License
+
+[MIT](https://github.com/LuizHumphries/LetmeAsk/blob/main/LICENSE) <br />
