@@ -30,7 +30,7 @@ The Letmeask application was developed to help live streamers and their follower
 
 ## Programs/Stacks/Tools
 
-<p>React </p>
-<p>Node.js </p>
-<p>TypeScript </p>
-<p>Firebase </p>
+[React!](https://pt-br.reactjs.org/)
+[Firebase!](https://firebase.google.com/)
+[TypeScript!](https://www.typescriptlang.org/)
+[Node.js!](https://nodejs.org/en/)
