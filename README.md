@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img src="/LuizHumphries/LetmeAsk/blob/main/Homepage.jpg" alt="Design preview for the Letmeask landing page for NWL Application" style="max-width:100%;">
+<img src="https://github.com/LuizHumphries/LetmeAsk/blob/9df09bc51c62dda998e86b2796e464f65debfe05/Homepage.jpg" alt="Design preview for the Letmeask landing page for NWL Application" style="max-width:100%;">
 
 ## Available Scripts
 
