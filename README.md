@@ -30,29 +30,27 @@ The Letmeask application was developed to help live streamers and their follower
 
 ## Programs/Stacks/Tools
 
-[React!](https://pt-br.reactjs.org/) <br />
+[React](https://pt-br.reactjs.org/) <br />
 
-[Firebase!](https://firebase.google.com/)<br />
+[Firebase](https://firebase.google.com/)<br />
 
-[TypeScript!](https://www.typescriptlang.org/)<br />
+[TypeScript](https://www.typescriptlang.org/)<br />
 
-[Node.js!](https://nodejs.org/en/)<br />
+[Node.js](https://nodejs.org/en/)<br />
 
 # Project Start
 
 ```
-$ git clone https://github.com/LuizHumphries/LetmeAsk/letmeask-React.git
+$ git clone https://github.com/LuizHumphries/LetmeAsk.git
 
 # Access
 $ cd letmeask-React
 
-# Install dependencies
 $ yarn
 
 # Run the project
 $ yarn start
 
-# The server will initialize in the <http://localhost:3000>
 ```
 ## License
 
