@@ -1,8 +1,8 @@
 <div align="left"><center><h1>Letmeask</h1></center></div>
-<div align="left"><center><h3>A ReactJS Application created at Rocketseat's NWL</h3></center></div>
+<div align="left"><center><h3>A React Application created at Rocketseat's NWL</h3></center></div>
 
 
-This is my **frist project** for Web development, using ReactJS. 
+This is my **frist project** for Web development, using React. 
 As an **engineer** that uses **Python** for Data Analyst and process optimization, this project is my first step in the Front-end world.
 
 
@@ -16,13 +16,21 @@ The Letmeask application was developed to help live streamers and their follower
 
 ## Application Features
 
-✔️ Login authentication with Google Account;
-✔️ Admin Comands (lock/question answered, delete question)
+<p>✔️ Login authentication with Google Account;</p>
+<p>✔️ Admin Comands (lock/question answered, delete question)</p>
 
-❗  Coming soon:
+## Coming soon:
 
-<p>&ensp;&ensp;&ensp; ⚪ Responsivity</p>
-<p>&ensp;&ensp;&ensp; ⚪ Switch for Dark/Light Theme</p>
-<p>&ensp;&ensp;&ensp; ⚪ Delete Room Function for admin's</p>
-<p>&ensp;&ensp;&ensp; ⚪ Better room Ids.</p>
-<p>&ensp;&ensp;&ensp; ⚪ Modal for delete room function</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Responsivity</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Logo "LetmeAsk" moves the user to HomePage </p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Switch for Dark/Light Theme</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Delete Room Function for admin's</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Better room Ids.</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Modal for delete room function</p>
+
+## Programs/Stacks/Tools
+
+<p>React </p>
+<p>Node.js </p>
+<p>TypeScript </p>
+<p>Firebase </p>
