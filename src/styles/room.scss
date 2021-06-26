@@ -1,12 +1,10 @@
 
 #page-room {
   background: #f8f8f8;
-  body {
-    background: #f8f8f8;
-  }
+  
 
   &.dark {    
-    background-color: #1a1a20;
+    background: #1a1a20;
     header {
       background: #2d2d36;
       border-bottom: 1px solid #2d2d36;      
@@ -49,7 +47,7 @@
         span {          
           color: rgba(255, 255, 255, 0.685);         
           button {            
-            color: #3c2581;            
+            color: #df55d3;            
           }
         }
       }
@@ -125,7 +123,7 @@
     }
     
     .question-list {
-      background: #f8f8f8;
+      background: #fefefe;
       margin-top: 32px;
     }
 

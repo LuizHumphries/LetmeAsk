@@ -1,3 +1,7 @@
+.button.dark {
+  background: #3c2581;   
+}
+
 .button {  
   height: 50px;
   border-radius: 8px;
@@ -23,6 +27,17 @@
     border: 1px solid #835afd;
     color: #835afd
   }
+
+  &.dark {
+    background: rgba(170, 154, 154, 0.685);
+    border: 1px solid rgba(92, 82, 82, 0.685);
+    color: rgba(255, 255, 255, 0.897);
+    div {
+      background: #826acc;
+    }    
+  }
+
+  
   
   &:not(:disabled):hover {
     filter: brightness(0.9);
