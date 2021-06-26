@@ -17,15 +17,14 @@ The Letmeask application was developed to help live streamers and their follower
 ## Application Features
 
 <p>✔️ Login authentication with Google Account;</p>
-<p>✔️ Admin Comands (lock/question answered, delete question)</p>
+<p>✔️ Admin Comands (lock/question answered, delete question, delete room, copy room ID)</p>
+<p>✔️ Logo goes to homepage</p>
+<p>✔️ Switch for Dark/Light Theme :heavy_exclamation_mark::heavy_exclamation_mark::heavy_exclamation_mark: Dark theme incomplete due to body{} Collor</p>
 
 ## Coming soon:
 
 <p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Responsivity</p>
-<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Logo "LetmeAsk" moves the user to HomePage </p>
-<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Switch for Dark/Light Theme</p>
-<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Delete Room Function for admin's</p>
-<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Better room Ids.</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Final adjustments for Dark Theme</p>
 <p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Modal for delete room function</p>
 
 ## Programs/Stacks/Tools
