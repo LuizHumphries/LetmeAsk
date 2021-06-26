@@ -66,9 +66,12 @@
       justify-content: space-between;
       align-items: center;
 
-      >img {
-        max-height: 45px;
+      :link {
+        >img {
+          max-height: 45px;
+        }
       }
+      
 
       >div {
         display: flex;

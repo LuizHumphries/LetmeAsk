@@ -3,7 +3,7 @@ import logoImg from "../assets/images/logo.svg"
 import darklogoImg from '../assets/images/darklogo.svg'
 import '../styles/room.scss';
 import { RoomCode } from "../components/RoomCode";
-import { useHistory, useParams } from "react-router-dom";
+import { Link, useHistory, useParams } from "react-router-dom";
 import { Question } from "../components/Question";
 import { useRoom } from "../hooks/useRoom";
 import deleteImg from "../assets/images/delete.svg"
@@ -57,7 +57,9 @@ export function AdminRoom() {
     <div id="page-room" className={theme}>
       <header>
         <div className="content">
-          <img src={theme === 'light' ? logoImg : darklogoImg} alt="Letmeask" />
+          <Link to="/">
+            <img src={theme === 'light' ? logoImg : darklogoImg} alt="Letmeask" />
+          </Link>
           <div>
             <RoomCode code={roomId} />
             <Button isOutlined onClick={handleEndRoom}>Encerrar sala</Button>
