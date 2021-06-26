@@ -1,5 +1,6 @@
 import { Button } from "../components/Button";
 import logoImg from "../assets/images/logo.svg"
+import darklogoImg from '../assets/images/darklogo.svg'
 import '../styles/room.scss';
 import { RoomCode } from "../components/RoomCode";
 import { useParams } from "react-router-dom";
@@ -8,6 +9,8 @@ import { useAuth } from "../hooks/useAuth";
 import { database } from "../services/firebase";
 import { Question } from "../components/Question";
 import { useRoom } from "../hooks/useRoom";
+import Switch from 'react-switch'
+import { useTheme } from "../hooks/useTheme";
 
 
 
@@ -21,6 +24,7 @@ export function Room() {
   const roomId = params.id
   const [newQuestion, setNewQuestion] = useState('');
   const { questions, title } = useRoom(roomId)
+  const { theme, toggleTheme } = useTheme();
 
   async function handleSendQuestion(event: FormEvent) {
     event.preventDefault();
@@ -43,6 +47,7 @@ export function Room() {
     setNewQuestion("");
   }
 
+
   async function handleLikeQuestion(questionId: string, likeId: string | undefined) {
     if (likeId) {
       await database.ref(`rooms/${roomId}/questions/${questionId}/likes/${likeId}`).remove()
@@ -53,14 +58,28 @@ export function Room() {
     }
   }
 
+
   return (
-    <div id="page-room">
+    <div id="page-room" className={theme}>
       <header>
         <div className="content">
-          <img src={logoImg} alt="Letmeask" />
-          <RoomCode code={roomId} />
+          <img src={theme === 'light' ? logoImg : darklogoImg} alt="Letmeask" />
+
+          <div>
+            <RoomCode code={roomId} />
+            <Switch
+              onChange={toggleTheme}
+              checked={theme === 'dark'}
+              checkedIcon={false}
+              uncheckedIcon={false}
+              height={10}
+              width={30}
+              handleDiameter={20}
+            />
+          </div>
         </div>
       </header>
+
 
       <main className="content">
         <div className="room-title">
@@ -86,7 +105,7 @@ export function Room() {
             <Button type="submit" disabled={!user}>Enviar pergunta</Button>
           </div>
         </form>
-        <div className="question-list">
+        <div className={`question-list ${theme === 'dark' ? 'dark' : ''}`}>
           {questions.map(question => {
             return (
               <Question
@@ -109,7 +128,6 @@ export function Room() {
                     </svg>
                   </button>
                 )}
-
               </Question>
             )
           })}
