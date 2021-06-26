@@ -80,6 +80,9 @@ export function Home() {
                     width={30}
                     handleDiameter={20}
                     onColor='#C8C8C8'
+                    offColor='#242424'
+                    onHandleColor="#5fa2e0"
+                    offHandleColor="#3172af"
                 />
             </header>
         </div>
