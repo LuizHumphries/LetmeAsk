@@ -19,7 +19,7 @@ The Letmeask application was developed to help live streamers and their follower
 <p>✔️ Login authentication with Google Account;</p>
 <p>✔️ Admin Comands (lock/question answered, delete question, delete room, copy room ID)</p>
 <p>✔️ Logo goes to homepage</p>
-<p>✔️ Switch for Dark/Light Theme :heavy_exclamation_mark::heavy_exclamation_mark::heavy_exclamation_mark: Dark theme incomplete due to body{} Collor</p>
+<p>✔️ Switch for Dark/Light Theme :heavy_exclamation_mark::heavy_exclamation_mark::heavy_exclamation_mark: Dark theme incomplete due to body{} color</p>
 
 ## Coming soon:
 
