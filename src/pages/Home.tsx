@@ -71,7 +71,6 @@ export function Home() {
 
             </main>
             <header>
-
                 <Switch
                     onChange={toggleTheme}
                     checked={theme === 'dark'}
@@ -80,6 +79,7 @@ export function Home() {
                     height={10}
                     width={30}
                     handleDiameter={20}
+                    onColor='#C8C8C8'
                 />
             </header>
         </div>

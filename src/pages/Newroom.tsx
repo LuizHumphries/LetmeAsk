@@ -31,7 +31,7 @@ export function NewRoom() {
       authorId: user?.id
     })
 
-    history.push(`/rooms/${firebaseRoom.key}`)
+    history.push(`/admin/rooms/${firebaseRoom.key}`)
 
   }
 
@@ -73,6 +73,7 @@ export function NewRoom() {
           height={10}
           width={30}
           handleDiameter={20}
+          onColor='#C8C8C8'
         />
       </header>
     </div>

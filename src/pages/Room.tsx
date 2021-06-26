@@ -76,6 +76,7 @@ export function Room() {
               height={10}
               width={30}
               handleDiameter={20}
+              onColor='#C8C8C8'
             />
           </div>
         </div>
