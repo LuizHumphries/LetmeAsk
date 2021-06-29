@@ -47,6 +47,7 @@ export function Home() {
                 <strong>Crie salas de Q&amp;A ao-vivo</strong>
                 <p>Tire dúvidas de sua audiência em tempo-real</p>
             </aside>
+
             <main>
                 <div className="main-content">
 
@@ -70,6 +71,7 @@ export function Home() {
                 </div>
 
             </main>
+
             <header>
                 <Switch
                     onChange={toggleTheme}

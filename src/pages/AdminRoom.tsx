@@ -17,7 +17,6 @@ type RoomParams = {
   id: string;
 }
 
-
 export function AdminRoom() {
 
   const params = useParams<RoomParams>();
@@ -36,7 +35,6 @@ export function AdminRoom() {
   async function handleDeleteQuestion(questionId: string) {
     if (window.confirm("Tem certeza que deseja excluir essa pergunta?")) {
       await database.ref(`rooms/${roomId}/questions/${questionId}`).remove()
-
     }
   }
 
@@ -80,7 +78,7 @@ export function AdminRoom() {
         </div>
       </header>
 
-      <main className="content">
+      <main>
         <div className="room-title">
           <h1>Sala {title}</h1>
           {questions.length > 0 && <span>{questions.length} pergunta(s)</span>}
@@ -119,7 +117,6 @@ export function AdminRoom() {
                   <img src={deleteImg} alt="Remover pergunta" />
                 </button>
               </Question>
-
             )
           })}
         </div>

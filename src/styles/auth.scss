@@ -2,8 +2,9 @@
   display: flex;
   align-items: stretch;
   height: 100vh;
-  background: #f8f8f8;
-  
+  background: #f8f8f8;  
+
+
   &.dark {
     background: #1a1a20;    
     .create-room {      
@@ -36,7 +37,7 @@
       }
     }
   }
-    
+
   aside {
    flex: 7;
 
@@ -64,11 +65,14 @@
       color: #f8f8f8;
     }
   }
-  
-  
+
+  header {
+    padding: 15px;    
+  }
+
   main {   
     flex:8;    
-    margin-left: 30px;    
+    margin-left: 45px;    
     display: flex;
     align-items: center;
     justify-content:center;
