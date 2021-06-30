@@ -23,7 +23,7 @@ The Letmeask application was developed to help live streamers and their follower
 
 ## Coming soon:
 
-<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Responsivity</p>
+<p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Responsivity - 50% Concluded </p>
 <p>&ensp;&ensp;&ensp;&ensp;&ensp; ⚪ Modal for delete room function</p>
 
 ## Programs/Stacks/Tools
